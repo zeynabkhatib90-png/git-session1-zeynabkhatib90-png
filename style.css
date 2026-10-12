@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; margin: 0; background: #f6f7fb; color: #263345; line-height: 1.6; }
+header, main { max-width: 850px; margin: 0 auto; padding: 22px; }
+header { background: white; border-bottom: 1px solid #ddd; }
+.banner { display: block; width: 100%; max-height: 180px; object-fit: contain; }
+h1 { margin-bottom: 0; }
+section { background: white; margin-top: 20px; padding: 22px; border: 1px solid #e3e6ef; border-radius: 10px; }
+@media (max-width: 600px) { header, main { padding: 14px; } section { padding: 15px; } }
